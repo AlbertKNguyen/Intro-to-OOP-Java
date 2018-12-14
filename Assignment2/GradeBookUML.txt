@@ -1,0 +1,13 @@
+
+			GradeBook
+________________________________________________________________                                                                             
+- courseName : String
+- instructorName : String
+________________________________________________________________
+<<constructor>> GradeBook(course : String, instructor : String)
++setCourseName(name : String)
++getCourseName() : String
++setInstructorName(name : String)
++getInstructorName() : String
++displayMessage() : void
+________________________________________________________________

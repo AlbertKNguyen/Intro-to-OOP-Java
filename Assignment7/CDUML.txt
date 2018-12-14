@@ -1,0 +1,19 @@
+
+			       		CD
+_________________________________________________________________________________                                                                             
+- artistName : String
+- albumTitle : String
+- priceAmount : Double
+- numTracks : int
+_________________________________________________________________________________
+<<constructor>> CD(artist : String, album : String, price : double, tracks : int)
++setArtistName(name : String)
++getArtistName() : String
++setAlbumTitle(title : String)
++getAlbumTitle() : String
++setPriceAmount(amount : double)
++getPriceAmount() : double
++setNumTracks(tracks : int)
++getNumTracks() : int
++toString() : String
+_________________________________________________________________________________

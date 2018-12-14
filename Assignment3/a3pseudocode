@@ -1,0 +1,34 @@
+Albert Nguyen
+Albertnguyen@my.smccd.edu
+CIS 254 ON 
+a3pseudocode
+pseudocode for cube sum program
+Assignment 3
+7/5/17
+
+set three-digit number to 100
+set first digit to 1
+set second digit to 0
+set third digit to 0
+
+print "The three-digit numbers that are equal to the sum of each digit cubed are: "
+
+WHILE the three-digit number is between 100 and 999
+    
+    set cube sum to first digit cubed plus second digit cubed plus third digit cubed
+    
+    IF the three-digit number is equal to its cube sum 
+        print the three-digit number or cube sum
+    END IF
+    increase the three-digit by 1
+    inrease the third digit by 1
+    IF the third digit is equal to 10
+        increase the second digit by 1
+        set the third digit equal to 0
+    END IF
+    IF the second digit is equal to 10
+        increase the first digit by 1
+        and set the second digit to 0
+    END IF
+END LOOP
+print name in next line: "Programmed by Albert Nguyen"
